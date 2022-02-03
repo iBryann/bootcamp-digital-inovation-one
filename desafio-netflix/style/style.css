@@ -1,0 +1,57 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #FFF;
+}
+
+/* filme principal */
+.filme-principal {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5) 100%), url(https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/ex4kvQb0Ski5KL2fsnKQU2hV3oo.jpg);
+    background-size: cover;
+    font-size: 16px;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 40px;
+}
